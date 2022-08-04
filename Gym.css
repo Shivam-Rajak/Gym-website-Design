@@ -1,0 +1,109 @@
+body{color:white;
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('pics/model.jpg');
+    /* height: 4589px; */
+}
+.left{ 
+    display: inline-block;
+    position:absolute;
+    left:30px;
+    top:20px;
+}
+.left img{
+    width:80px;
+}
+.left div{
+    line-height: 6px;
+    text-align: center;
+    color:grey;
+}
+
+ .mid{
+     display:block;
+     width:38%;
+     margin:20px auto;
+}
+.navbar{
+    position:absolute; 
+    display:inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size:18px;
+}
+.navbar li a{
+    color:grey;
+    text-decoration: none;
+    padding:14px 10px;
+}
+.navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+    color:rgb(253, 237, 216);
+}
+.right{
+    position:absolute;
+    right:30px;
+    top:30px;
+    display:inline-block;
+}
+.btn{
+    margin:0px 5px;
+    background-color: black;
+    font-family: 'Balsamiq Sans', cursive;
+    color:grey;
+    padding:4px 8px;
+    border:2px solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover{
+    color:rgb(253, 237, 216);
+}
+.container{
+    border: 1px solid ;
+    display: block;
+    height:282px;
+    width:367px;
+    color:grey;
+    position:relative;
+         top:430px;
+        right:-925px;
+}
+form{
+    display:block;
+    margin: 27px 12px;
+}
+h4{
+    margin-left:105px;
+}
+ .box{ 
+    width:91%;
+    border: 1px solid grey ;
+    border-radius: 8px;
+    margin:15px;
+ }
+ .box input{ 
+     background: none;
+     color:rgb(110, 109, 109);
+   margin:6px;
+   width:80%;
+   border:none;
+   outline:none;
+   font-size: medium;
+}
+form .btn{
+    margin:4px 120px;
+    outline:none;
+    background-color: black;
+    font-family: 'Balsamiq Sans', cursive;
+    color:grey;
+    border-radius: 8px;
+    cursor: pointer;
+    padding:5px 22px;
+    font-size: 15px;
+}
+form.btn:hover{
+    color:rgb(253, 237, 216);
+}
